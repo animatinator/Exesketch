@@ -1,0 +1,18 @@
+			-EXESKETCH-
+-Ideas & shizz
+
+
+-Modify "has mouse hit an object if not pass to screen" to use the new foundTarget bool in the
+Event object?  AT LEAST PARTIALLY DONE (I think it might be done, actually...)
+-Make it so middle-click is *always* send to the screen for zooming; objects probably don't need
+this event ;)   DONE
+-Include a 'modifier key' variable in the Event class   DONE
+-Get rid of the bloody 'modifiers' global variable - local copies for each function? (Would't make
+much of a difference...)   DONE
+-ALT-MIDDLE = pan, left-click - select, left-click & drag = multi-select?
+
+-Arbitrary polygons   IN PROGRESS
+-Bezier curves
+-Regular polygons
+-Circles
+-Rounded rect?

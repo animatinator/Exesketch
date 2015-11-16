@@ -1,0 +1,15 @@
+-Object class holds scale, rotation
+-Object class holds isScaling, isRotating
+-Object class has functions SetScale(), SetRotation()
+-Transformation class function SetTransformMatrix()
+and UnsetTransformMatrix() called before and after drawing
+an object, with Object ref/pointer as argument.
+-Transform::SetTransformMatrix(const Object* object)
+{
+	glPushMatrix();
+	Set scale and rotation to object->GetThem();
+}
+-Transform::UnsetTransformMatrix()
+{
+	glPopMatrix();
+}
